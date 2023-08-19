@@ -48,7 +48,7 @@ func (p Pprinter) Info(message string, args ...string) {
 	} else {
 		fmtMsg = fmt.Sprintf(message, args)
 	}
-	printWithColor("i "+fmtMsg, "#3498db")
+	printWithColor("i "+fmtMsg, lipgloss.Color(p.selectedTheme.ColorInfo))
 }
 
 func (p Pprinter) Success(message string, args ...string) {
@@ -58,7 +58,7 @@ func (p Pprinter) Success(message string, args ...string) {
 	} else {
 		fmtMsg = fmt.Sprintf(message, args)
 	}
-	printWithColor("✓ "+fmtMsg, "#27ae60")
+	printWithColor("✓ "+fmtMsg, lipgloss.Color(p.selectedTheme.ColorSuccess))
 }
 
 func (p Pprinter) Error(message string, args ...string) {
@@ -68,7 +68,7 @@ func (p Pprinter) Error(message string, args ...string) {
 	} else {
 		fmtMsg = fmt.Sprintf(message, args)
 	}
-	printWithColor("x "+fmtMsg, "#c0392b")
+	printWithColor("x "+fmtMsg, lipgloss.Color(p.selectedTheme.ColorError))
 }
 
 func (p Pprinter) Warning(message string, args ...string) {
@@ -78,7 +78,7 @@ func (p Pprinter) Warning(message string, args ...string) {
 	} else {
 		fmtMsg = fmt.Sprintf(message, args)
 	}
-	printWithColor("! "+fmtMsg, "#f39c12")
+	printWithColor("! "+fmtMsg, lipgloss.Color(p.selectedTheme.ColorWarn))
 }
 
 func (p Pprinter) Terminate(message string, args ...string) {
