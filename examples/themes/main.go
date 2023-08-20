@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"time"
 
 	"github.com/sarkarshuvojit/pprinter/pprinter"
 )
@@ -33,5 +34,6 @@ func main() {
 		fmt.Println(strings.Repeat("=", len(themeName)))
 		printAll(pprinter.WithTheme(themes[themeName]))
 		fmt.Println()
+		time.Sleep(time.Second)
 	}
 }
