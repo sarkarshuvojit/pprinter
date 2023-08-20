@@ -37,11 +37,11 @@ import (
 )
 
 func main() {
-	pp := pprinter.WithTheme(pprinter.PastelTheme)
+    pp := pprinter.WithTheme(pprinter.PastelTheme)
     p.Info("Test")
-	p.Success("Test")
-	p.Warning("Test")
-	p.Error("Test")
+    p.Success("Test")
+    p.Warning("Test")
+    p.Error("Test")
 }
 
 ```
