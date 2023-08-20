@@ -55,7 +55,7 @@ Which would yeild the following output
 
 [Themes Example](examples/themes/)
 
-[![asciicast](https://asciinema.org/a/603677.svg)](https://asciinema.org/a/603677)
+[![asciicast](https://asciinema.org/a/603681.svg)](https://asciinema.org/a/603681)
 
 [Animated Text Example](examples/animated_text/)
 
