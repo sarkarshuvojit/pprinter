@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/sarkarshuvojit/pprinter/pprinter"
+	"github.com/sarkarshuvojit/pprinter"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sarkarshuvojit/pprinter/pprinter"
+	"github.com/sarkarshuvojit/pprinter"
 )
 
 func printAll(p *pprinter.Pprinter) {
